@@ -3,7 +3,7 @@ Contributors: frankschrijvers
 Tags: overlay, genesis, widget, featured content, Genesis Framework, genesiswp, slide, widget-only, widgets, slide-in
 Requires at least: 3.6
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,7 +35,6 @@ More information, an example, and the manual can be found on <a href="http://www
 Looking for additional features? Just let me know. 
 
 
-
 == Installation ==
 
 1. You have a couple options:
@@ -52,6 +51,8 @@ Looking for additional features? Just let me know.
 
 
 == Changelog ==
+= 1.1 =
+* Content in widget wasn't showing
 
 = 1.0 =
 * Initial Release

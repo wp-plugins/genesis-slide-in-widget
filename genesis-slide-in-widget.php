@@ -3,7 +3,7 @@
  Plugin Name: Genesis Slide-in Widget
  Plugin URI: http://wpstud.io/plugins
  Description: Create a slide-in widget area
- Version: 1.0
+ Version: 1.1
  Author: Frank Schrijvers
  Author URI: http://www.wpstud.io
  Text Domain: : genesis-slide-widget

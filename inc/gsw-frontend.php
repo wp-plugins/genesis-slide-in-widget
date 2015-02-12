@@ -31,7 +31,7 @@ function wpstudio_gsw_add_widget() {
 			echo 'style="background-color: '. genesis_get_option( 'gsw_background' , 'gsw-settings') .';';
 			echo 'color: '. genesis_get_option( 'text_color' , 'gsw-settings') .';">';
 		}
-			genesis_widget_area( 'creative_headerwidget', array());
+			genesis_widget_area( 'slide-in-widget', array());
 		echo '</div></div>';
 		
 
