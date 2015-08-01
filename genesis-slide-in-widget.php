@@ -3,7 +3,7 @@
  Plugin Name: Genesis Slide-in Widget
  Plugin URI: http://wpstud.io/plugins
  Description: Create a slide-in widget area
- Version: 1.1
+ Version: 1.2
  Author: Frank Schrijvers
  Author URI: http://www.wpstud.io
  Text Domain: : genesis-slide-widget
@@ -63,6 +63,10 @@ function wpstudio_gsw_script_managment() {
 		if ( genesis_get_option( 'gsw_css', 'gsw-settings') == 1 ) {
 			wp_enqueue_style( 'wpstudio-style', plugin_dir_url( __FILE__ ) . '/assets/css/wpstudio-gsw-style.css' );
 		}
+		if ( !genesis_get_option( 'gsw_button', 'gsw-settings' ) ) {
+			wp_enqueue_style( 'wpstudio-style-btn', plugin_dir_url( __FILE__ ) . '/assets/css/wpstudio-gsw-btn.css' );
+		}
+
 		wp_enqueue_script( 'main', plugin_dir_url( __FILE__ ) . '/assets/js/main.min.js', array( 'jquery' ) );	
 	}
 }

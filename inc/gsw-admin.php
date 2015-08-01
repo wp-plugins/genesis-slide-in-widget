@@ -40,7 +40,7 @@ class WPSTUDIO_gsw_Settings extends Genesis_Admin_Boxes {
             'gsw_settings_defaults',
             array(
                 'gsw_background'    => '#FFFFFF',
-                'gsw_button'        => 'Push me',
+                'gsw_button'        => '',
                 'gsw_color'         => '#404040',
                 'gsw_css'           => '1',
                 'gsw_fixed'         => 'trigger-fixed',

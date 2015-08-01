@@ -2,8 +2,8 @@
 Contributors: frankschrijvers
 Tags: overlay, genesis, widget, featured content, Genesis Framework, genesiswp, slide, widget-only, widgets, slide-in
 Requires at least: 3.6
-Tested up to: 4.1
-Stable tag: 1.1
+Tested up to: 4.2
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,9 @@ Looking for additional features? Just let me know.
 
 
 == Changelog ==
+= 1.1 =
+* Button text is now showing when filled in 
+
 = 1.1 =
 * Content in widget wasn't showing
 
